@@ -1,0 +1,43 @@
+@media (min-width:1400px){
+    .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:667px){
+    .container{
+        position: relative;
+    }
+    
+    .menu-btn{
+        position: fixed;
+        bottom: 0px;
+        left:0px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+
+    .content h1{
+        font-size: 30px;
+    }
+
+    .content-button{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .content-right-part{
+        margin-left: 0px;
+    }
+
+    .navbar-left{
+        margin-left: 0px;
+    }
+
+    .navbar-right{
+        margin-left: 10px;
+    }
+}

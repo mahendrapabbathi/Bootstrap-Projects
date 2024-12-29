@@ -1,0 +1,47 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation .freeBtn{
+    background-color: white;
+    color:gray;
+    font-weight: bold;
+    padding:4px 18px;
+    transition: all 0.3s linear;
+}
+
+.navigation .orderBtn{
+    padding:4px 26px;
+    background-color: rgb(235, 60, 118);
+    color:white;
+    transition: all 0.3s linear;
+    margin-left: 10px;
+}
+
+.navigation .freeBtn:hover,.navigation .orderBtn:hover{
+    transform: scale(1.1);
+}
+
+.popArea{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.email input{
+    padding-right: 130px;
+}
+
+.subButton{
+    background-color: rgb(235, 60, 118);
+    color:white;
+    font-weight: bold;
+    padding:auto 30px;
+}
+
+.subButton:hover{
+    background-color: rgb(235, 60, 118);
+    color:white;
+}
